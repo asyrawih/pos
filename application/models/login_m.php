@@ -20,6 +20,4 @@ class login_m extends  CI_Model {
             return $query->result();
         }
     }
-
-
 }

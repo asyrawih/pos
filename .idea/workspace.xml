@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfc5c5df-d9b8-45e5-8068-09c59af99c51" name="Default Changelist" comment="" />
+    <list default="true" id="bfc5c5df-d9b8-45e5-8068-09c59af99c51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/application/controllers/Anggota.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/anggota_m.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/anggota/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/login_m.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/login_m.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/templates/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/templates/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/templates/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/templates/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/templates/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/templates/sidebar.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +39,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/models/login_m.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/Anggota.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            <state relative-caret-position="419">
+              <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/anggota/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="49" column="72" selection-start-line="49" selection-start-column="72" selection-end-line="49" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/templates/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -57,13 +84,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/application/models/barang_m.php" />
-        <option value="$PROJECT_DIR$/application/views/templates/header.php" />
-        <option value="$PROJECT_DIR$/application/views/templates/sidebar.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/application/views/barang/barang.php" />
-        <option value="$PROJECT_DIR$/application/views/templates/footer.php" />
         <option value="$PROJECT_DIR$/application/views/login.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/application/views/dashboard.php" />
@@ -72,16 +96,24 @@
         <option value="$PROJECT_DIR$/application/controllers/Auth.php" />
         <option value="$PROJECT_DIR$/application/views/templates/navbars.php" />
         <option value="$PROJECT_DIR$/application/models/login_m.php" />
+        <option value="$PROJECT_DIR$/application/views/anggota/anggota.php" />
+        <option value="$PROJECT_DIR$/application/views/templates/sidebar.php" />
+        <option value="$PROJECT_DIR$/application/models/anggota_m.php" />
+        <option value="$PROJECT_DIR$/application/views/templates/header.php" />
+        <option value="$PROJECT_DIR$/application/views/templates/footer.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Anggota.php" />
+        <option value="$PROJECT_DIR$/application/views/anggota/index.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="937" />
-    <option name="height" value="644" />
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -95,6 +127,11 @@
               <item name="pos" type="b2602c69:ProjectViewProjectNode" />
               <item name="pos" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pos" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -102,6 +139,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/application/views/templates" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -109,12 +147,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\laragon\www\pos" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\laragon\www\pos\application\views\templates" />
       <recent name="C:\laragon\www\pos\application\controllers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\pos" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -149,17 +187,18 @@
       <workItem from="1558733815696" duration="3256000" />
       <workItem from="1558737269057" duration="10153000" />
       <workItem from="1558758137023" duration="6908000" />
-      <workItem from="1558789443261" duration="837000" />
+      <workItem from="1558789443261" duration="4484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21154000" />
+    <option name="totallyTimeSpent" value="24801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24205749" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.36384267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -171,12 +210,12 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32973805" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32973805" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,20 +311,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/templates/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/templates/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/constants.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1584" />
@@ -318,9 +343,6 @@
     <entry file="file://$PROJECT_DIR$/application/config/smileys.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/templates/footer.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -342,27 +364,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-37">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Barang.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/templates/navbars.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -372,8 +373,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/login_m.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="504">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Barang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="22" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/anggota_m.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="64" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/templates/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Anggota.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/anggota/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="49" column="72" selection-start-line="49" selection-start-column="72" selection-end-line="49" selection-end-column="72" />
         </state>
       </provider>
     </entry>

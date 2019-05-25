@@ -9,6 +9,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <!-- Material Kit CSS -->
     <link href="<?= base_url() ?>assets/css/material-dashboard.min.css" rel="stylesheet">
+    <link href="<?= base_url() ?>assets/css/bootstrap-select.css" rel="stylesheet">
 </head>
 
 <body>

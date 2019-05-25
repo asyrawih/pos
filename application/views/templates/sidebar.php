@@ -22,8 +22,8 @@
                         <p>Dashboard</p>
                     </a>
                 </li>
-                <li class="nav-item active  ">
-                    <a class="nav-link" href="#0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="<?= base_url('anggota') ?>">
                         <i class="material-icons">person</i>
                         <p>Anggota</p>
                     </a>

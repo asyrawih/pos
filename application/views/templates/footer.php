@@ -31,6 +31,8 @@
     <script src="<?= base_url() ?>assets/js/plugins/chartist.min.js"></script>
     <!--  Notifications Plugin    -->
     <script src="<?= base_url() ?>assets/js/plugins/bootstrap-notify.js"></script>
+    <!--  bootstrap select picker  -->
+    <script src="<?= base_url() ?>assets/js/bootstrap-select.js"></script>
     <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
     <script src="<?= base_url() ?>assets/js/material-dashboard.js" type="text/javascript"></script>
 </footer>
