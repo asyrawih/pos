@@ -36,4 +36,12 @@ class Anggota extends CI_Controller {
             redirect('anggota/index');
         }
     }
+    // Hapus data
+    public function hapus($id){
+        $data = ['id' => $id] ;
+        $hapus =  $this->anggota->hapusData($data, 'anggota');
+        $data = ['hapus' => 'berhasil di tambahkan'];
+        $this->session->set_userdata($data);
+        redirect('anggota/index');
+    }
 }

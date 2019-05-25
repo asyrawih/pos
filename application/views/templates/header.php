@@ -10,6 +10,8 @@
     <!-- Material Kit CSS -->
     <link href="<?= base_url() ?>assets/css/material-dashboard.min.css" rel="stylesheet">
     <link href="<?= base_url() ?>assets/css/bootstrap-select.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" rel="stylesheet">
+
 </head>
 
 <body>

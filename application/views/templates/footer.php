@@ -31,6 +31,8 @@
     <script src="<?= base_url() ?>assets/js/plugins/chartist.min.js"></script>
     <!--  Notifications Plugin    -->
     <script src="<?= base_url() ?>assets/js/plugins/bootstrap-notify.js"></script>
+    <!--  Data Tables  -->
+    <script src="<?= base_url() ?>assets/js/plugins/jquery.dataTables.min.js"></script>
     <!--  bootstrap select picker  -->
     <script src="<?= base_url() ?>assets/js/bootstrap-select.js"></script>
     <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
@@ -41,12 +43,14 @@
             echo  "<script> showsuccess() </script>";
             $this->session->unset_userdata('status');
         }
+        if ($this->session->hapus){
+            echo  "<script> showhapus() </script>";
+            $this->session->unset_userdata('hapus');
+        }
     ?>
     <script>
         $(document).ready(function () {
-            $('#tombol').click(function () {
-                console.log('ahh ahh ahh ahh sakit ahh ');
-            })
+            $('#tabelku').dataTable()
         })
     </script>
 </footer>

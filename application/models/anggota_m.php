@@ -16,5 +16,11 @@ class anggota_m extends CI_Model
         return true  ;
     }
 
+    public function hapusData($where , $table){
+        $this->db->where($where);
+        $this->db->delete($table);
+
+    }
+
 
 }

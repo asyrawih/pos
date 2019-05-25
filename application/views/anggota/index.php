@@ -2,12 +2,12 @@
     <div class="container-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="card bg-dark shadow-normal">
+                <div class="col-md-12">
+                    <div class="card  shadow-normal">
                         <div class="card-header">
                             <div class="card-body">
                                 <div class="table-responsive">
-                                    <table class="table text-white">
+                                    <table class="table text-center " id="tabelku" style="width: 80%">
                                         <thead>
                                         <tr>
                                             <th>No</th>
@@ -26,12 +26,12 @@
                                             <td><?= ucfirst($row->alamat) ?></td>
                                             <td><?= ucfirst($row->status) ?></td>
                                             <td>
-                                                <button class="btn btn-info btn-fab btn-fab-mini btn-round">
+                                                <a href="<?= base_url('anggota/show') ?>?id=<?= $row->id ?>" class="btn btn-info btn-fab btn-fab-mini btn-round">
                                                     <i class="material-icons">remove_red_eye</i>
-                                                </button>
-                                                <button class="btn btn-danger btn-fab btn-fab-mini btn-round" id="tombol">
+                                                </a>
+                                                <a href="<?= base_url('anggota/hapus/'.$row->id) ?>" class="btn btn-danger btn-fab btn-fab-mini btn-round" id="tombol">
                                                     <i class="material-icons">close</i>
-                                                </button>
+                                                </a>
                                             </td>
                                         </tr>
                                         <?php endforeach; ?>
@@ -42,7 +42,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <div class="card">
                         <div class="card-header">
                            <h4 class="font-weight-normal text-center mt-3">Tambah Data Anggota</h4>
@@ -58,7 +58,7 @@
                                 <div class="form-group">
                                     <select class="selectpicker form-control" name="status" data-style = "btn-success">
                                         <option value="active">active</option>
-                                        <option value="notactive">not active </option>
+                                        <option value="not-active">not active </option>
                                     </select>
                                 </div>
                                 <button class="btn btn-success pull-right mt-2" type="submit">Tambah</button>

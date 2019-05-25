@@ -14,11 +14,18 @@ function showsuccess(from, align){
     });
 
 }
+// Hapus notif
+function showhapus(from, align){
+    $.notify({
+        icon: "add_alert",
+        message: "Data Berhasil Di hapus "
 
-function hapus() {
-    $.ready(function () {
-        $('#tombol').on('click' , function () {
-            console.log('ahh ahh ahh ');
-        })
-    })
+    },{
+        type: 'danger',
+        timer: 4000,
+        placement: {
+            from: from,
+            align: align
+        }
+    });
 }
