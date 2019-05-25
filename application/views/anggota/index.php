@@ -20,7 +20,8 @@
                                         <tbody>
                                         <?php  foreach ($anggota as $row) :?>
                                         <tr>
-                                            <td>1</td>
+                                            <?php $no = 1 ; ?>
+                                            <td><?= $no++ ?></td>
                                             <td><?= ucfirst($row->nama) ?></td>
                                             <td><?= ucfirst($row->alamat) ?></td>
                                             <td><?= ucfirst($row->status) ?></td>
@@ -28,7 +29,7 @@
                                                 <button class="btn btn-info btn-fab btn-fab-mini btn-round">
                                                     <i class="material-icons">remove_red_eye</i>
                                                 </button>
-                                                <button class="btn btn-danger btn-fab btn-fab-mini btn-round">
+                                                <button class="btn btn-danger btn-fab btn-fab-mini btn-round" id="tombol">
                                                     <i class="material-icons">close</i>
                                                 </button>
                                             </td>

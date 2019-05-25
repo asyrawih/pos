@@ -12,10 +12,11 @@ class Anggota extends CI_Controller {
     {
         $data['anggota'] = $this->anggota->getAnggota()->result();
         $data['title'] = 'anggota' ;
+        $data['status'] = $this->session->status ;
         $this->load->view('templates/header', $data);
         $this->load->view('templates/sidebar');
         $this->load->view('templates/navbars' , $data);
-        $this->load->view('anggota/index');
+        $this->load->view('anggota/index',$data);
         $this->load->view('templates/footer');
     }
 
@@ -23,7 +24,16 @@ class Anggota extends CI_Controller {
         $nama = $this->input->post('nama');
         $alamat = $this->input->post('alamat');
         $status = $this->input->post('status');
-        var_dump($nama , $alamat , $status);
-        die ;
+        $data = [
+            'nama' => $nama ,
+            'alamat' => $alamat ,
+            'status' => $status
+        ];
+        $query =  $this->anggota->tambahAnggota($data);
+        if($query == true){
+            $data = ['status' => 'berhasil di tambahkan'];
+            $this->session->set_userdata($data);
+            redirect('anggota/index');
+        }
     }
 }

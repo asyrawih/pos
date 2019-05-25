@@ -11,5 +11,10 @@ class anggota_m extends CI_Model
 
     }
 
+    public function tambahAnggota($data){
+        $this->db->insert('anggota',$data);
+        return true  ;
+    }
+
 
 }

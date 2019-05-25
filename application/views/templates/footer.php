@@ -35,6 +35,20 @@
     <script src="<?= base_url() ?>assets/js/bootstrap-select.js"></script>
     <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
     <script src="<?= base_url() ?>assets/js/material-dashboard.js" type="text/javascript"></script>
+    <script src="<?= base_url() ?>assets/js/app.js"></script>
+    <?php
+        if ($this->session->status){
+            echo  "<script> showsuccess() </script>";
+            $this->session->unset_userdata('status');
+        }
+    ?>
+    <script>
+        $(document).ready(function () {
+            $('#tombol').click(function () {
+                console.log('ahh ahh ahh ahh sakit ahh ');
+            })
+        })
+    </script>
 </footer>
 </div>
 </div>

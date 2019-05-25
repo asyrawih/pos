@@ -16,6 +16,7 @@ class Dashboard extends CI_Controller {
 	public function index()
 	{
 	    $data['title'] = 'Dashboard' ;
+	    $data['status'] = $this->session->status ;
 	    $this->load->view('templates/header', $data);
 	    $this->load->view('templates/sidebar');
 	    $this->load->view('templates/navbars' , $data);
